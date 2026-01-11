@@ -1,0 +1,23 @@
+# Byte-compiled / optimized /DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test /coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local configuration
+local_settings.py

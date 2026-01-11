@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-boilerplate"
+version = "0.1.0"
+description = "Robust base for WSL2 Python development"
+readme = "README.md"
+requires-python = ">3.10"
+
+[project.optional-dependencies]
+dev = [
+  "mypy",
+  "ruff",
+  "pytest",
+]
+
+math = [
+  "numpy",
+  "scripy",
+  "matplotlib",
+  "notebook",
+]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+ignore_missing_imports = true
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
+ignore = []
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
