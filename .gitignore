@@ -21,3 +21,13 @@ htmlcov/
 
 # Local configuration
 local_settings.py
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IPyKernel and local runtime artifacts
+.ipython/
+.jupyter/
+
+# ToC etc
+.vscode-jupyter

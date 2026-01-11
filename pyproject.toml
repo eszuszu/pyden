@@ -18,7 +18,7 @@ dev = [
 
 math = [
   "numpy",
-  "scripy",
+  "scipy",
   "matplotlib",
   "notebook",
 ]
